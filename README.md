@@ -18,8 +18,9 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 - At first, these 6 tables are created in the **Bronze Layer** and data is directly loaded into these tables from the csv files.
 - Then, these 6 tables are cleaned, transformed and then loaded into the **Silver Layer**.
 
-3. **Gold Layer**: Houses business-ready data modeled into a star schema(with fact and dimension tables) required for reporting and analytics.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema(with fact and dimension tables) required for reporting and analytics
 
+- 
 ![Data Architecture](docs/data_model.png)
 
 
